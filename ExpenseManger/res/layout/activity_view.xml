@@ -1,0 +1,162 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    	android:scrollbars="none"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:background="#DDAABB"
+    	tools:context=".ViewActivity" >
+<TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"
+            android:layout_marginTop="2dp" >
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Food"
+        android:textSize="30dp" 
+        android:layout_weight="0.7" />
+      <TextView
+        android:id="@+id/tvfoodv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_marginRight="5dp"
+        android:text="Amount"
+        android:textSize="30dp" />
+      </TableRow>
+      
+           <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"
+            android:layout_marginTop="2dp" >
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Bill"
+        android:textSize="30dp" 
+        android:layout_weight="0.7" />
+      <TextView
+        android:id="@+id/tvBillv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_marginRight="5dp"
+        android:text="Amount"
+        android:textSize="30dp" />
+   		 </TableRow>
+   		 
+    
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"
+            android:layout_marginTop="2dp" >
+      <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Medical"
+        android:textSize="30dp" 
+        android:layout_weight="0.7" />
+      <TextView
+        android:id="@+id/tvmediv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_marginRight="5dp"
+        android:text="Amount"
+        android:textSize="30dp" />
+      </TableRow>
+      
+           <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"
+            android:layout_marginTop="2dp" >
+      <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Transport"
+        android:textSize="30dp" 
+        android:layout_weight="0.7" />
+      <TextView
+        android:id="@+id/tvtransv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_marginRight="5dp"
+        android:text="Amount"
+        android:textSize="30dp" />
+   		 </TableRow> 
+   		 
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"
+            android:layout_marginTop="2dp" >
+      <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Others"
+        android:textSize="30dp" 
+        android:layout_weight="0.7" />
+      <TextView
+        android:id="@+id/tvotherv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_marginRight="5dp"
+        android:text="Amount"
+        android:textSize="30dp" />
+      </TableRow>
+   		 
+                <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"
+            android:layout_marginTop="2dp" >
+      <TextView
+        android:id="@+id/textView6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Total"
+        android:textSize="30dp" 
+        android:layout_weight="0.7" />
+      <TextView
+        android:id="@+id/tvtotalv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_marginRight="5dp"
+        android:text="Amount"
+        android:textSize="30dp" />
+      </TableRow>
+         
+ </TableLayout>
+</ScrollView>

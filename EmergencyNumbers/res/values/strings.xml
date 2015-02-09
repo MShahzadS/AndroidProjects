@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EmergencyNumbers</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+
+        <string-array name="MyData">
+         <item>Terrorism,Army,+923036017307</item>
+         <item>Terrorism,Special,+923036017308</item>
+         <item>Police,Help,+923045086912</item>
+         <item>NGO,Edhi,+923404747962</item>
+         <item>Bank,HBL,+923036017390</item>
+         <item>Bank,Alfalah,+923036017310</item>
+    </string-array>
+    
+  
+    <string name="title_activity_call">CallActivity</string>
+
+</resources>

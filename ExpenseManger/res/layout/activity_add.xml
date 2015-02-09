@@ -1,0 +1,179 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:scrollbars="none"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#DDAABB"
+        android:layout_alignParentTop="true" >
+    <TableLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"  >
+            
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="fill_parent"
+        android:layout_height= "200dp"
+        android:layout_marginLeft="40dp"
+        android:fitsSystemWindows="true"
+        android:calendarViewShown="false" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"
+            android:layout_marginTop="1dp" 
+             >
+        <TextView
+            android:id="@+id/tvFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.3"
+            android:textSize="18dp"
+            android:text="Food" />
+	
+        <EditText
+            android:id="@+id/etFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:ems="4" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDBBBB"
+            android:layout_marginTop="1dp" 
+             >
+        <TextView
+            android:id="@+id/tvBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.3"
+            android:textSize="18dp"
+            android:text="Bill" />
+	
+        <EditText
+            android:id="@+id/etBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:ems="4" />
+        </TableRow>
+                <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:background="#DDBBBB"
+            android:layout_marginTop="1dp"  
+             >
+        <TextView
+            android:id="@+id/tvMedi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.3"
+            android:textSize="18dp"
+            android:text="Medical" />
+	
+        <EditText
+            android:id="@+id/etMedi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:ems="4" />
+        </TableRow>
+                <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:background="#DDBBBB"
+            android:layout_marginTop="1dp" 
+             >
+        <TextView
+            android:id="@+id/tvTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.3"
+            android:textSize="18dp"
+            android:text="Transport" />
+	
+        <EditText
+            android:id="@+id/etTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:ems="4" />
+        </TableRow>
+                <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:background="#DDBBBB"
+            android:layout_marginTop="1dp" 
+             >
+        <TextView
+            android:id="@+id/tvOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.3"
+            android:textSize="18dp"
+            android:text="Other" />
+	
+        <EditText
+            android:id="@+id/etOthers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:ems="4" />
+        </TableRow>    
+        
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:background="#DDBBBB"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp" 
+             >
+              
+         <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:onClick="AddNew"
+        android:text="Add" />
+                
+            </TableRow>
+    </TableLayout>
+    </ScrollView>
+    
